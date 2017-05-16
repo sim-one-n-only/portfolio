@@ -5,6 +5,7 @@ var app = angular.module("personalPortfolio");
 
 app.controller("aboutMeCntrl", ["$scope", function ($scope) {
 
+    $scope.myStory = function () {}
 }])
 
 app.directive("aboutMe", function () {
