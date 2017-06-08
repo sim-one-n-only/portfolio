@@ -5,7 +5,13 @@ var app = angular.module("personalPortfolio");
 
 app.controller("aboutMeCntrl", ["$scope", function ($scope) {
 
-    $scope.myStory = function () {}
+    $scope.aboutMe = true;
+    $scope.education = false;
+    $scope.resume = false;
+    $scope.skills = false;
+
+
+
 }])
 
 app.directive("aboutMe", function () {
