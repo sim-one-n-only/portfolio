@@ -37,18 +37,6 @@ body                            { margin-top:40px; }
 #name span                  { display:inline-block;}
 
 
-/* MAIN NAV
-============================================================================= */
-#main-nav                       { margin-bottom:20px;  }
-
-
-
-/* CONTENT
-============================================================================= */
-#content                        { min-height:400px; padding:20px;
-                                border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;}
-#content img                    { border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; }
-
 /* ANIMATIONS
 ============================================================================= */
 
@@ -83,23 +71,13 @@ body                            { margin-top:40px; }
 
 
 
-body {
-    background-image: url("photos/acs-website-background-building.jpg")
-}
+body                       { background-image: url("photos/acs-website-background-building.jpg")}
 
 
 /*NAVBAR*/
-.navbar {
-    border-radius: 0;
-    background-color: transparent;
-    border-bottom: 1px solid rgba(255,255,255,.2);
-    transition: all .5s ease-in-out;
-}
+.navbar                    { border-radius: 0; background-color: transparent; border-bottom: 1px solid rgba(255,255,255,.2); transition: all .5s ease-in-out;}
 
-.navbar-default .navbar-nav>li>a {
-    color: white;
-    transition: .2s ease-in-out;
-}
+.navbar-default .navbar-nav>li>a { color: white; transition: .2s ease-in-out;}
 
 .navbar-default .navbar-nav>li>a:hover {
     color: yellowgreen;
