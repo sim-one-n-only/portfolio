@@ -250,6 +250,21 @@ label .fa {
     label .fa {
         font-size: 14px;
     }
+    #name {
+        font-size: 60px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    #self {
+        margin-top: 140px;
+    }
+    #header {
+        margin-top: 100px;
+    }
+    #contact-panel {
+        margin-top: 140px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {

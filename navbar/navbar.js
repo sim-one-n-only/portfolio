@@ -13,3 +13,4 @@ app.directive("navbar", function () {
         templateUrl: "navbar/navbar.html"
     }
 })
+
